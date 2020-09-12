@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(41, 42, 59);
+  background-color: rgb(209, 209, 209);
 }
 
 #menu{
@@ -99,4 +99,16 @@ body {
 
 .change{
   display: block;
+}
+
+h1{
+  font-size: 1.5em;
+  font-family: 'Work Sans', sans-serif;
+  margin: 25px 0 20px 170px;
+  color: rgb(7, 126, 120);
+  font-weight: bold;
+}
+
+header{
+  border-bottom: 2px solid rgb(109, 109, 109);
 }
