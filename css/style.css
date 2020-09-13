@@ -16,8 +16,8 @@ body{
 }
 
 .brand-title{
-  font-size: 1.7rem;
-  margin: .5rem;
+  font-size: 2rem;
+  margin: .7rem 4rem .7rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,6 +41,7 @@ body{
 
 .navbar-links li:hover{
   background-color: #555;
+  transition: 0.8s;
 }
 
 .toggle-button{
@@ -61,9 +62,10 @@ body{
   border-radius: 10px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 780px){
   .toggle-button{
     display: flex;
+    margin-top: .6rem;
   }
 
   .navbar-links{
