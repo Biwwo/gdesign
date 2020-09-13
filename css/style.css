@@ -5,6 +5,8 @@
 body{
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100;
 }
 
 .navbar{
@@ -94,7 +96,7 @@ body{
   transform: translateY(0px) rotateZ(-45deg);
 }
 
-@media (max-width: 780px){
+@media (max-width: 800px){
   .toggle-button{
     display: flex;
     margin-top: .6rem;
@@ -126,4 +128,23 @@ body{
   .navbar-links.active{
     display: flex;
   }
+}
+
+.overlay{
+  position: relative;
+  width: 100%;
+}
+
+.overlay span{
+  position: absolute;
+  top: 52%;
+  left: 38%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(241, 241, 241);
+  font-size: 5vw;
+  border-bottom: 0.3vw solid #333;
+}
+
+.overlay img{
+  width: 100%;
 }
