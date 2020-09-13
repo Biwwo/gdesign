@@ -137,11 +137,11 @@ body{
 
 .overlay span{
   position: absolute;
-  top: 52%;
-  left: 38%;
+  top: 50%;
+  left: 35%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(241, 241, 241);
-  font-size: 5vw;
+  font-size: 7vw;
   border-bottom: 0.3vw solid #333;
 }
 
