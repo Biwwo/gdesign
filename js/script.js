@@ -1,9 +1,6 @@
-function onClickMenu(){
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-  document.getElementById("menu").classList.toggle("change");
-
-  document.getElementById("nav").classList.toggle("change");
-
-  document.getElementById("menu-bg").classList.toggle("change-bg");
-
-}
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
